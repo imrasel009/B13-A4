@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Job Tracker</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        *{
+            font-family: "Geist", sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="max-w-6xl mx-auto my-16 bg-[#F8FAFC]">
+    <section>
+        <h1 class="font-bold text-3xl text-[#002C5C] mb-5">Job Application Tracker</h1>
+        <div class="flex justify-between">
+            <div class="p-5 bg-white shadow-[#F1F2F4] rounded-lg min-w-[360px]">
+                <p class="font-medium text-[0.8rem] text-[#323B49] mb-2">Total</p>
+                <h2 class="font-bold text-2xl">8</h2>
+            </div>
+            <div class="p-5 bg-white shadow-[#F1F2F4] rounded-lg min-w-[360px]">
+                <p class="font-medium text-[0.8rem] text-[#323B49] mb-2">Interview</p>
+                <h2 class="text-[#10B981] font-bold text-2xl">0</h2>
+            </div>
+            <div class="p-5 bg-white shadow-[#F1F2F4] rounded-lg min-w-[360px]">
+                <p class="font-medium text-[0.8rem] text-[#323B49] mb-2">Rejected</p>
+                <h2 class="font-bold text-2xl text-[#EF4444]">0</h2>
+            </div>
+        </div>
+    </section>
 </body>
 
 <script src="./script.js"></script>
